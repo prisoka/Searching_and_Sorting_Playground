@@ -1,0 +1,22 @@
+{
+  "name": "searching_and_sorting_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisoka/Searching_and_Sorting_Playground.git"
+  },
+  "author": "prisoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prisoka/Searching_and_Sorting_Playground/issues"
+  },
+  "homepage": "https://github.com/prisoka/Searching_and_Sorting_Playground#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
