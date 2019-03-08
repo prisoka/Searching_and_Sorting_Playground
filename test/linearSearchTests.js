@@ -1,6 +1,7 @@
 "use strict"
 
 const expect = require("chai").expect
+const linearSearch = require("../src/linearSearch")
 
 describe(("linear search tests"), function(){
   it(("linearSearch() should be a function"), function(){
