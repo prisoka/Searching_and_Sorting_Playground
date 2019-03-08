@@ -1,6 +1,8 @@
 "use strict"
 
 const expect = require("chai").expect
+const selectionSort = require("../src/selectionSort")
+const swap = require("../src/selectionSort")
 
 describe(("selectionSort tests"), function(){
   it(("selectionSort() should be a function"), function(){
@@ -12,7 +14,7 @@ describe(("selectionSort tests"), function(){
   })
 
   it(("selectionSort() should return empty array if the given array is empty"), function(){
-    expect(selectionSort([])).to.equal([])
+    expect(selectionSort([])).to.deep.equal([])
   })
 
   it(("given an unsorted array, selectionSort() should sort it"), function(){
