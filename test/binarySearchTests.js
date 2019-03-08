@@ -1,6 +1,7 @@
 "use strict"
 
 const expect = require("chai").expect
+const binarySearch = require("../src/binarySearch")
 
 describe(("binary search tests"), function(){
   it(("binarySearch() should be a function"), function(){
