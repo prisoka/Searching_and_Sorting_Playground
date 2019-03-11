@@ -10,7 +10,17 @@
 // Repeat until the unsorted section is empty.
 
 const insertionSort = (array) => {
-  return [1,2,3,4,5,6,7,8,9]
+  for (let i = 0; i < array.length; i++){
+    let currItem = array[i]
+    let j = i-1
+
+    while(j >= 0 && array[j] > currItem){
+      array[j + 1] = array[j]
+      j--
+    }
+    array[j + 1] = currItem
+  }
+  return array
 }
 
 module.exports = insertionSort
