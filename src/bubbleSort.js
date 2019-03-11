@@ -6,8 +6,25 @@
   // then move into the next element in the array and repeat
   // return array
 
-const bubbleSort = () => {
-  return [7, 11, 15, 40, 99]
+function swap(array, i, j){
+  let temp = array[i]
+  array[i] = array[j]
+  array[j] = temp
+}
+
+const bubbleSort = (array) => {
+  let done = false
+
+  while(!done){
+    done = true
+    for (let i = 0; i < array.length; i++){
+      if (array[i] < array[i-1]){
+        done = false
+        swap(array, i, i-1)
+      }
+    }
+  }
+  return array
 }
 
 module.exports = bubbleSort

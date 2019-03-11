@@ -28,7 +28,7 @@ const selectionSort = (array) => {
       swap(array, i, currMin)
     }
   }
-  
+
   return array
 }
 
