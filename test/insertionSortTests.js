@@ -1,6 +1,7 @@
 "use strict"
 
 const expect = require("chai").expect
+const insertionSort = require("../src/insertionSort")
 
 describe(("insertion search tests"), function(){
   it(("insertionSort() should be a function"), function(){
